@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Which of these is NOT a former name of Sri Lanka?",
+        "correctAnswer": 4,
+        "category": 1,
+        "answers": {
+            "answer_1": "Taprobane",
+            "answer_2": "Ceylon",
+            "answer_3": "Lanka",
+            "answer_4": "Vedda"
+        }
+    },
+    {
+        "id": 2,
+        "question": "In what year did Sri Lanka become independent from Britain as the Dominion of Ceylon?",
+        "correctAnswer": 1,
+        "category": 1,
+        "answers": {
+            "answer_1": "1948",
+            "answer_2": "1947",
+            "answer_3": "1949",
+            "answer_4": "1946"
+        }
+    },
+    {
+        "id": 3,
+        "question": "Which of these colours is NOT featured on Sri Lanka&#39;s national flag?",
+        "correctAnswer": 1,
+        "category": 1,
+        "answers": {
+            "answer_1": "Black",
+            "answer_2": "Yellow",
+            "answer_3": "Green",
+            "answer_4": "Orange"
+        }
+    },
+    {
+        "id": 4,
+        "question": "What natural disaster hit Sri Lanka on Boxing Day 2004?",
+        "correctAnswer": 1,
+        "category": 1,
+        "answers": {
+            "answer_1": "Tsunami",
+            "answer_2": "Flood",
+            "answer_3": "Hurricane",
+            "answer_4": "Famine"
+        }
+    },
+    {
+        "id": 5,
+        "question": "Which of these Sri Lankan cities is NOT on the coast?",
+        "correctAnswer": 3,
+        "category": 1,
+        "answers": {
+            "answer_1": "Galle",
+            "answer_2": "Colombo",
+            "answer_3": "Kandy",
+            "answer_4": "Jaffna"
+        }
+    },
+    {
+        "id": 6,
+        "question": "question 6",
+        "correctAnswer": 1,
+        "category": 2,
+        "answers": {
+            "answer_1": "answer 1",
+            "answer_2": "answer 2",
+            "answer_3": "answer 3",
+            "answer_4": "answer 4"
+        }
+    },
+    {
+        "id": 7,
+        "question": "question 7",
+        "correctAnswer": 1,
+        "category": 2,
+        "answers": {
+            "answer_1": "answer 1",
+            "answer_2": "answer 2",
+            "answer_3": "answer 3",
+            "answer_4": "answer 4"
+        }
+    },
+    {
+        "id": 8,
+        "question": "question 8",
+        "correctAnswer": 1,
+        "category": 2,
+        "answers": {
+            "answer_1": "answer 1",
+            "answer_2": "answer 2",
+            "answer_3": "answer 3",
+            "answer_4": "answer 4"
+        }
+    },
+    {
+        "id": 9,
+        "question": "question 9",
+        "correctAnswer": 1,
+        "category": 2,
+        "answers": {
+            "answer_1": "answer 1",
+            "answer_2": "answer 2",
+            "answer_3": "answer 3",
+            "answer_4": "answer 4"
+        }
+    },
+    {
+        "id": 10,
+        "question": "question 10",
+        "correctAnswer": 1,
+        "category": 2,
+        "answers": {
+            "answer_1": "answer 1",
+            "answer_2": "answer 2",
+            "answer_3": "answer 3",
+            "answer_4": "answer 4"
+        }
+    }
+]
