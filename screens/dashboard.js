@@ -4,10 +4,9 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 function Dashboard({ navigation }) {
 
-    function navigateLevel(level) {
-        navigation.navigate('Questions', {
-            level: level,
-        });
+    function navigateQuiz(level) 
+    {
+        navigation.navigate('Questions', {level: level,});
     }
 
     const levels = ["QUIZ 1", "QUIZ 2", "QUIZ 3"]
@@ -23,11 +22,10 @@ function Dashboard({ navigation }) {
             </View>
             <View style={styles.content}>
                 <View style={styles.contentContainer}>
-                    {levels.map((level, index) => (
-                        <TouchableOpacity
-                            onPress={() => navigateLevel(index + 1)}
-                            style={styles.levels}>
-                            <Text style={styles.levelText}>{level}</Text>
+                    {/* */}
+                    {levels.map((quiz, index) => (
+                        <TouchableOpacity onPress={() => navigateQuiz(index + 1)} style={styles.levels}>
+                            <Text style={styles.levelText}>{quiz}</Text>
                         </TouchableOpacity>
                     ))}
                 </View>

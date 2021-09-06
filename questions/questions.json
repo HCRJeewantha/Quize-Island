@@ -61,62 +61,302 @@
     },
     {
         "id": 6,
-        "question": "question 6",
+        "question": "Which James introduced tea growing to Sri Lanka?",
         "correctAnswer": 1,
-        "category": 2,
+        "category": 1,
         "answers": {
-            "answer_1": "answer 1",
-            "answer_2": "answer 2",
-            "answer_3": "answer 3",
-            "answer_4": "answer 4"
+            "answer_1": "James Taylor",
+            "answer_2": "James Johnson",
+            "answer_3": "James Smith",
+            "answer_4": "James Thomas"
         }
     },
     {
         "id": 7,
-        "question": "question 7",
-        "correctAnswer": 1,
-        "category": 2,
+        "question": "What notable sporting trophy did Sri Lanka win in 1996?",
+        "correctAnswer": 4,
+        "category": 4,
         "answers": {
-            "answer_1": "answer 1",
-            "answer_2": "answer 2",
-            "answer_3": "answer 3",
-            "answer_4": "answer 4"
+            "answer_1": "Football World Cup",
+            "answer_2": "Badminton World Cup",
+            "answer_3": "Hockey World Cup",
+            "answer_4": "Cricket World Cup"
         }
     },
     {
         "id": 8,
-        "question": "question 8",
-        "correctAnswer": 1,
-        "category": 2,
+        "question": "What is Sri Lanka's national mammal?",
+        "correctAnswer": 3,
+        "category": 1,
         "answers": {
-            "answer_1": "answer 1",
-            "answer_2": "answer 2",
-            "answer_3": "answer 3",
-            "answer_4": "answer 4"
+            "answer_1": "Leopard",
+            "answer_2": "Tiger",
+            "answer_3": "Lion",
+            "answer_4": "Elephant"
         }
     },
     {
         "id": 9,
-        "question": "question 9",
-        "correctAnswer": 1,
-        "category": 2,
+        "question": "In Sri Lanka, what type of food is a hopper?",
+        "correctAnswer": 4,
+        "category": 1,
         "answers": {
-            "answer_1": "answer 1",
-            "answer_2": "answer 2",
-            "answer_3": "answer 3",
-            "answer_4": "answer 4"
+            "answer_1": "A Curry",
+            "answer_2": "A Fruit",
+            "answer_3": "A Fish",
+            "answer_4": " A Pancake"
         }
     },
     {
         "id": 10,
-        "question": "question 10",
+        "question": "Which of these is a motorised rickshaw popular in Sri Lanka?",
+        "correctAnswer": 1,
+        "category": 1,
+        "answers": {
+            "answer_1": "Tuk-Tuk",
+            "answer_2": "Buk-Buk",
+            "answer_3": "Wuk-Wuk",
+            "answer_4": "Puk-Puk"
+        }
+    },
+    {
+        "id": 11,
+        "question": "What is the main export of Sri Lanka?",
+        "correctAnswer": 2,
+        "category": 2,
+        "answers": {
+            "answer_1": "Rubber",
+            "answer_2": "Tea",
+            "answer_3": "Coffee",
+            "answer_4": "Rice"
+        }
+    },
+    {
+        "id": 12,
+        "question": "Ratnapura, is a small town famous for _____________?",
+        "correctAnswer": 2,
+        "category": 2,
+        "answers": {
+            "answer_1": "exotic spices",
+            "answer_2": "gems",
+            "answer_3": "an elephant orphanage",
+            "answer_4": "glorious beaches"
+        }
+    },
+    {
+        "id": 13,
+        "question": "What other names has Sri Lanka been called?",
+        "correctAnswer": 4,
+        "category": 2,
+        "answers": {
+            "answer_1": "Taprobane",
+            "answer_2": "Ceilao",
+            "answer_3": "Serendib",
+            "answer_4": " All of these"
+        }
+    },
+    {
+        "id": 14,
+        "question": "The word 'Ayubowan' is traditionally used in which way?",
+        "correctAnswer": 2,
+        "category": 2,
+        "answers": {
+            "answer_1": "thanks",
+            "answer_2": "greeting",
+            "answer_3": "yes",
+            "answer_4": "no"
+        }
+    },
+    {
+        "id": 15,
+        "question": "What is a string hopper?",
         "correctAnswer": 1,
         "category": 2,
         "answers": {
-            "answer_1": "answer 1",
-            "answer_2": "answer 2",
-            "answer_3": "answer 3",
-            "answer_4": "answer 4"
+            "answer_1": "a steamed noodle flattened into a circle",
+            "answer_2": "a carrying bag only to be used in temples",
+            "answer_3": "an ancient farming implement",
+            "answer_4": " a bird with purple plumage only found in the highlands"
+        }
+    },
+    {
+        "id": 16,
+        "question": "The size of Sri Lanka is closest to which other country?",
+        "correctAnswer": 3,
+        "category": 2,
+        "answers": {
+            "answer_1": "Haiti",
+            "answer_2": "Denmark",
+            "answer_3": "Ireland",
+            "answer_4": "Panama"
+        }
+    },
+    {
+        "id": 17,
+        "question": "Sri Lanka has extensive rubber plantations. Together with Malaysia it provides what percentage of the world's total production?",
+        "correctAnswer": 1,
+        "category": 2,
+        "answers": {
+            "answer_1": "Seventy per cent",
+            "answer_2": "Fifty per cent",
+            "answer_3": "Ninety-five per cent",
+            "answer_4": " Sixty per cent"
+        }
+    },
+    {
+        "id": 18,
+        "question": "Where is a sapling of the sacred Bodhi tree located?",
+        "correctAnswer": 3,
+        "category": 2,
+        "answers": {
+            "answer_1": "Mihintale",
+            "answer_2": "Polonnaruwa",
+            "answer_3": "Anuradhapura",
+            "answer_4": "Kandy"
+        }
+    },
+    {
+        "id": 19,
+        "question": "When is the Kandy Esala Perahera held?",
+        "correctAnswer": 2,
+        "category": 2,
+        "answers": {
+            "answer_1": " Full moon in April",
+            "answer_2": "Late July, early August",
+            "answer_3": "First week in December",
+            "answer_4": "Last week in May"
+        }
+    },
+    {
+        "id": 20,
+        "question": "What are the colours of the Sri Lankan flag?",
+        "correctAnswer": 4,
+        "category": 2,
+        "answers": {
+            "answer_1": "dark red, blue, white, green",
+            "answer_2": "red, green and yellow",
+            "answer_3": "green and gold and blue",
+            "answer_4": "yellow, green, orange, dark red"
+        }
+    },
+    {
+        "id": 21,
+        "question": "In which Sri Lankan city, also the capital of the last independent kingdom in 1592, is the Esala Perahera festival held?",
+        "correctAnswer": 3,
+        "category": 3,
+        "answers": {
+            "answer_1": "Kotikawatta",
+            "answer_2": "Colombo",
+            "answer_3": "Kandy",
+            "answer_4": "Katunayake"
+        }
+    },
+    {
+        "id": 22,
+        "question": "Sri Lanka is known for exporting tea, coffee, rubber and cinnamon, but only one of them is native to the island. Which one?",
+        "correctAnswer": 1,
+        "category": 3,
+        "answers": {
+            "answer_1": "Cinnamon",
+            "answer_2": "Coffee",
+            "answer_3": "Tea",
+            "answer_4": "Rubber"
+        }
+    },
+    {
+        "id": 23,
+        "question": "This waterfall, with one sheer drop of 98 metres, is the eighteenth highest in Sri Lanka and runs off the Kehelgamuwa River. Sharing its name with an important city in Scotland it is called which of these?",
+        "correctAnswer": 2,
+        "category": 3,
+        "answers": {
+            "answer_1": " Dundee Falls",
+            "answer_2": "Aberdeen Falls",
+            "answer_3": "Edinburgh Falls",
+            "answer_4": "Inverness Falls"
+        }
+    },
+    {
+        "id": 24,
+        "question": "Sri Lanka's original name of Ceylon comes from Ceilão, which was given to the island in 1505 by settlers from which European country?",
+        "correctAnswer": 4,
+        "category": 3,
+        "answers": {
+            "answer_1": "Spain",
+            "answer_2": "France",
+            "answer_3": "Italy",
+            "answer_4": "Portugal"
+        }
+    },
+    {
+        "id": 25,
+        "question": "Sri Lankan Ediriweera Sarachchandra was an author of plays, novels and short stories. His play 'Maname', first staged in 1956, was considered to be the first Sinhala drama, incorporating folk rituals and stories. Which of these outdoor areas was named in his memory by the University of Peradeniya?",
+        "correctAnswer": 4,
+        "category": 3,
+        "answers": {
+            "answer_1": "Reflection pool",
+            "answer_2": "Botanical garden",
+            "answer_3": "Football arena",
+            "answer_4": "Open air theatre"
+        }
+    },
+    {
+        "id": 26,
+        "question": "On which Sri Lankan rock palace fortress, with an entrance between the paws of a lion, can you find a mirror wall with graffiti and fresco paintings of young maidens on sheer rock?",
+        "correctAnswer": 4,
+        "category": 3,
+        "answers": {
+            "answer_1": "Mihintale",
+            "answer_2": "Polonnaruwa",
+            "answer_3": "Anuradhapura",
+            "answer_4": "Sigiriya"
+        }
+    },
+    {
+        "id": 27,
+        "question": "Between 1983 and 2009 the Liberation Tigers of Tamil Eelam (Tamil Tigers) fought to secede and create an independent Tamil state in Sri Lanka, a fight which evolved into the Sri Lankan Civil War. Over which region of the country were they battling?",
+        "correctAnswer": 1,
+        "category": 3,
+        "answers": {
+            "answer_1": "Northeast",
+            "answer_2": "West",
+            "answer_3": "Central",
+            "answer_4": "South"
+        }
+    },
+    {
+        "id": 28,
+        "question": "Rama's Bridge in Sri Lanka is also known by which Biblical name?",
+        "correctAnswer": 3,
+        "category": 3,
+        "answers": {
+            "answer_1": "Jonah's Bridge",
+            "answer_2": "Abraham's Bridge",
+            "answer_3": "Adam's Bridge",
+            "answer_4": "Noah's Bridge"
+        }
+    },
+    {
+        "id": 29,
+        "question": "Elephants are one of the native animals of Sri Lanka. Though the population is declining, space has been set aside in National Parks and Nature Reserves for their habitat. Three of these are names of parks where elephants can be seen, but which one has a completely different meaning?",
+        "correctAnswer": 3,
+        "category": 3,
+        "answers": {
+            "answer_1": "Yala",
+            "answer_2": "Udawalawe",
+            "answer_3": "Theravada",
+            "answer_4": "Wilpattu"
+        }
+    },
+    {
+        "id": 30,
+        "question": "In December 2004 Sri Lanka suffered severe damage and loss of life from which force of nature?",
+        "correctAnswer": 1,
+        "category": 3,
+        "answers": {
+            "answer_1": "Tsunami",
+            "answer_2": "Cyclone",
+            "answer_3": "Fire",
+            "answer_4": "Monsoon"
         }
     }
 ]

@@ -1,21 +1,26 @@
-import * as React from 'react';
+import * as React from 'react';//import react module
 import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 
+//home function
 function Home({ navigation }) {
-
-    function buttonClickedHandler () {
-        navigation.navigate('Welcome');
+    
+    //on button click, navigate to the welcome screen 
+    function routing (routepath) 
+    {
+        navigation.navigate(routepath);
     };
 
     return (
         <View style={styles.container}>
+            {/* adding LinearGradient colour to background */}
             <LinearGradient
                 colors={['#ffdcaa', '#ffffff']}
                 style={styles.background}
             />
             <View style={styles.head}>
-                <Image
+                {/* adding Image to background */}
+                <Image  
                     style={styles.vector}
                     source={require('../assets/vector4.jpg')}
                 />
@@ -27,8 +32,10 @@ function Home({ navigation }) {
                         <Text style={styles.bodyText}>
                         This work deals with development of react native-based multiple-choice question examination system, namely: Quiz Land. This application is developed for educational purpose, allowing the users to prepare the multiple-choice questions for different examinations conducted on provincial and national level.
                         </Text>
+
+                        {/* navigae to the welcome page when click the TouchableOpacity */}
                         <TouchableOpacity
-                            onPress={buttonClickedHandler}
+                            onPress={() => routing('Welcome')}
                             style={styles.button}>
                             <Text style={styles.buttonText}>NEXT</Text>
                         </TouchableOpacity>
@@ -39,7 +46,7 @@ function Home({ navigation }) {
     );
 }
 
-
+// react native stylesheet
 const styles = StyleSheet.create({
     container: {
         flex: 1,

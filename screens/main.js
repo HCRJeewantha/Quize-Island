@@ -1,12 +1,15 @@
-import * as React from 'react';
-import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import * as React from 'react'; //import react module
+import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'; //import native components 
+import { LinearGradient } from 'expo-linear-gradient';  //import LinearGradient module
 
-function Main({ route, navigation }) {
-
+//main function  
+function Main({ route, navigation }) 
+{
+    //passing parameters react native props
     const { name } = route.params;
 
-    const buttonClickedHandler = () => {
+    function buttonClickedHandler() 
+    {
         navigation.navigate('Dashboard');
     };
 

@@ -1,15 +1,17 @@
 import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity, TextInput, SafeAreaView } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import { LinearGradient } from 'expo-linear-gradient'; 
 
-function Home({ navigation }) {
-
+//welcome function 
+function Welcome({ navigation }) 
+{
+    //react useState hook used to store name
     const [name, onChangeName] = React.useState("Stranger");
 
-    const buttonClickedHandler = () => {
-        navigation.navigate('Main', {
-            name: name,
-        });
+    // navigate to the main screen with passing name as a parameter 
+    function buttonClickedHandler()  
+    {
+        navigation.navigate('Main', {name: name,});
     };
 
     return (
@@ -30,6 +32,7 @@ function Home({ navigation }) {
                 <View style={styles.contentContainer}>
                     <Text style={styles.greetingText}>Hello Stranger</Text>
                     <SafeAreaView>
+                        {/* read input text and set name value   */}
                         <TextInput
                             style={styles.input}
                             onChangeText={onChangeName}
@@ -127,4 +130,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Home;
+export default Welcome;
