@@ -87,7 +87,7 @@
         "id": 8,
         "question": "What is Sri Lanka's national mammal?",
         "correctAnswer": 3,
-        "category": 1,
+        "category": 2,
         "answers": {
             "answer_1": "Leopard",
             "answer_2": "Tiger",

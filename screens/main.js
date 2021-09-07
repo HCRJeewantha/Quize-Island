@@ -1,3 +1,7 @@
+/*
+Author: shamalka 
+Date: 
+*/
 import * as React from 'react'; //import react module
 import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'; //import native components 
 import { LinearGradient } from 'expo-linear-gradient';  //import LinearGradient module
@@ -46,6 +50,7 @@ function Main({ route, navigation })
     );
 }
 
+// react native stylesheet
 const styles = StyleSheet.create({
     container: {
         flex: 1,

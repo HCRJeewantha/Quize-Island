@@ -1,3 +1,7 @@
+/*
+Author: shamalka 
+Date: 
+*/
 import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity, TextInput, SafeAreaView } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient'; 
@@ -51,6 +55,7 @@ function Welcome({ navigation })
     );
 }
 
+// react native stylesheet
 const styles = StyleSheet.create({
     container: {
         flex: 1,

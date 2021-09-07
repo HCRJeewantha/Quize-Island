@@ -42,6 +42,8 @@ function Questions({ route, navigation }) {
                 </View>
                 <View style={styles.content}>
                     <View style={styles.contentContainer}>
+                        {/*used imported question component and pass level value to the quesion component
+                         as react prop */}
                         <Question level={level} />
                     </View>
                 </View>

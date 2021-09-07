@@ -1,3 +1,7 @@
+/*
+Author: shamalka 
+Date: 
+*/
 import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -22,7 +26,10 @@ function Dashboard({ navigation }) {
             </View>
             <View style={styles.content}>
                 <View style={styles.contentContainer}>
-                    {/* */}
+                    {/* map funtion will loop by levels array,after the loop TouchableOpacity will loop 3 times 
+                    because array has 3 elements.after that it will display 3 buttons  "QUIZ 1", "QUIZ 2", "QUIZ 3"
+                     after one button(QUIZ 1) click levels will call, after that pass to quiz index+1 ,
+                     index+1 will be levels number*/}
                     {levels.map((quiz, index) => (
                         <TouchableOpacity onPress={() => navigateQuiz(index + 1)} style={styles.levels}>
                             <Text style={styles.levelText}>{quiz}</Text>
@@ -34,6 +41,7 @@ function Dashboard({ navigation }) {
     );
 }
 
+// react native stylesheet
 const styles = StyleSheet.create({
     container: {
         flex: 1,

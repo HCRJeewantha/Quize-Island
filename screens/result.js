@@ -29,10 +29,10 @@ function Result({ route, navigation }) {
             <View style={styles.content}>
                 <View style={styles.contentContainer}>
                     <Text style={styles.totalResultText}>TOTAL</Text>
-                    <Text style={styles.totalResult}>{correct}/5</Text>
+                    <Text style={styles.totalResult}>{correct}/10</Text>
                     <Text style={styles.totalResultText}>SUMMARY</Text>
-                    <Text style={styles.summary}>{correct}/5 Correct Answers</Text>
-                    <Text style={styles.summary}>{incorrect}/5 Worng Answers</Text>  
+                    <Text style={styles.summary}>{correct}/10 Correct Answers</Text>
+                    <Text style={styles.summary}>{incorrect}/10 Worng Answers</Text>  
                     <TouchableOpacity
                         onPress={buttonClickedHandler}
                         style={styles.button}>

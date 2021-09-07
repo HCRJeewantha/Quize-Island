@@ -1,10 +1,14 @@
+/*
+Author:
+Date: 
+*/
 import * as React from 'react';//import react module
-import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';//import native components
+import { LinearGradient } from 'expo-linear-gradient';//import LinearGradient module
 
 //home function
-function Home({ navigation }) {
-    
+function Home({ navigation }) 
+{
     //on button click, navigate to the welcome screen 
     function routing (routepath) 
     {
