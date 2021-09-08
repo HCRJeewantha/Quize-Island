@@ -74,9 +74,10 @@ function Question(props) {
 
     // navigate to the result view after finish questions
     function navigateResult() {
+        
         displayQuestionCount = 1
+
         navigation.navigate('Result', {
-            results: userAnswers,
             correct: correctCount,
             incorrect: incorrcectCount
         });
@@ -268,7 +269,10 @@ const styles = StyleSheet.create({
     answerTextSelected: {
         color: '#ffffff',
         fontSize: 18,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        marginRight:8,
+        marginTop:8,
+        marginBottom:8
     },
     question: {
         fontSize: 18,
@@ -284,7 +288,12 @@ const styles = StyleSheet.create({
     },
     answerText: {
         fontSize: 18,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        marginLeft:8,
+        marginRight:8,
+        marginTop:8,
+        marginBottom:8,
+        textAlign:'center'
     },
     questionNumber: {
         fontSize: 18,

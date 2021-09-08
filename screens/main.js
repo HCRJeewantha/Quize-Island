@@ -31,6 +31,8 @@ function Main({ navigation }) {
             <View style={styles.content}>
                 <View style={styles.greetingContainer}>
                     <Text style={styles.primaryText}>Hello,</Text>
+                    
+                    {/* Get user name from local storage */}
                     <Text style={styles.secondaryText}>{localStorage.getItem("username")}</Text>
                 </View>
                 <View style={styles.contentContainer}>

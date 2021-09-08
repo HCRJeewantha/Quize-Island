@@ -7,10 +7,11 @@ import { LinearGradient } from 'expo-linear-gradient';
 function Result({ route, navigation }) {
 
     //get correct answers and incorrect answers from question component using react props
-    const { results, correct, incorrect } = route.params;
+    const { correct, incorrect } = route.params;
 
-    //routing to dashboard
-    const routing = (routerpath) => {
+    //routing to dashboard and main view
+    function routing (routerpath) 
+    {
         navigation.navigate(routerpath);
     };
 
@@ -30,16 +31,21 @@ function Result({ route, navigation }) {
             </View>
             <View style={styles.content}>
                 <View style={styles.contentContainer}>
+                    {/* Display correct answer count and incorrect answer count */}
                     <Text style={styles.totalResultText}>TOTAL</Text>
                     <Text style={styles.totalResult}>{correct}/{correct + incorrect}</Text>
                     <Text style={styles.totalResultText}>SUMMARY</Text>
                     <Text style={styles.summary}>{correct}/{correct + incorrect} Correct Answers</Text>
                     <Text style={styles.summary}>{incorrect}/{correct + incorrect} Worng Answers</Text>
+
+                    {/* navigate to dashboard view */}
                     <TouchableOpacity
                         onPress={() => routing('Dashboard')}
                         style={styles.button}>
                         <Text style={styles.buttonText}>QUIZES</Text>
                     </TouchableOpacity>
+
+                    {/* navigate to main view */}
                     <TouchableOpacity
                         onPress={() => routing('Main')}
                         style={styles.button}>

@@ -13,7 +13,7 @@ function Welcome({ navigation }) {
 
 
     // navigate to the main screen with passing name as a parameter 
-    function buttonClickedHandler() {
+    function routing() {
 
         localStorage.setItem("username", name);
         navigation.navigate('Main');
@@ -46,7 +46,7 @@ function Welcome({ navigation }) {
                     </SafeAreaView>
                     <Text style={styles.primaryText}>Enter Your Name</Text>
                     <TouchableOpacity
-                        onPress={buttonClickedHandler}
+                        onPress={routing}
                         style={styles.button}>
                         <Text style={styles.buttonText}>NEXT</Text>
                     </TouchableOpacity>
