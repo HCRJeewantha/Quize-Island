@@ -1,6 +1,6 @@
 /*
 Author: shamalka 
-Date: 
+Date: 01/09/2021
 */
 import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity, TextInput, SafeAreaView } from 'react-native';

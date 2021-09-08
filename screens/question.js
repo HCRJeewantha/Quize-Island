@@ -1,6 +1,6 @@
 /*
-Author:
-Date: 
+Author:shamalka
+Date: 07/09/2021
 */
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import data from '../questions/questions.json';// import created questions from questions.json

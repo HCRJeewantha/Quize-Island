@@ -1,3 +1,7 @@
+/*
+Author:shamalka
+Date: 10/09/2021
+*/
 import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';

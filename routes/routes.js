@@ -14,6 +14,7 @@ import Test from '../screens/test';
 
 const Stack = createNativeStackNavigator();
 
+//Routing function 
 function Routes() {
   return (
     <NavigationContainer>

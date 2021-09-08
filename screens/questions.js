@@ -1,3 +1,7 @@
+/*
+Author:shamalka
+Date: 06/09/2021
+*/
 import * as React from 'react';
 import { StyleSheet, View, Image, TouchableOpacity } from 'react-native';
 import Question from './question';
