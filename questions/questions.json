@@ -75,7 +75,7 @@
         "id": 7,
         "question": "What notable sporting trophy did Sri Lanka win in 1996?",
         "correctAnswer": 4,
-        "category": 4,
+        "category": 1,
         "answers": {
             "answer_1": "Football World Cup",
             "answer_2": "Badminton World Cup",
@@ -87,7 +87,7 @@
         "id": 8,
         "question": "What is Sri Lanka's national mammal?",
         "correctAnswer": 3,
-        "category": 2,
+        "category": 1,
         "answers": {
             "answer_1": "Leopard",
             "answer_2": "Tiger",
