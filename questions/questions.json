@@ -169,14 +169,14 @@
     },
     {
         "id": 15,
-        "question": "What is a string hopper?",
-        "correctAnswer": 1,
+        "question": "Sri Lankans have traditionally gotten electricity from which form of energy? ",
+        "correctAnswer": 4,
         "category": 2,
         "answers": {
-            "answer_1": "a steamed noodle flattened into a circle",
-            "answer_2": "a carrying bag only to be used in temples",
-            "answer_3": "an ancient farming implement",
-            "answer_4": " a bird with purple plumage only found in the highlands"
+            "answer_1": "Solar energy ",
+            "answer_2": "Nuclear energy ",
+            "answer_3": "Wind energy ",
+            "answer_4": "Hydro-powered energy"
         }
     },
     {
@@ -233,10 +233,10 @@
         "correctAnswer": 4,
         "category": 2,
         "answers": {
-            "answer_1": "dark red, blue, white, green",
+            "answer_1": "red, blue, white, green",
             "answer_2": "red, green and yellow",
             "answer_3": "green and gold and blue",
-            "answer_4": "yellow, green, orange, dark red"
+            "answer_4": "yellow, green, orange, red"
         }
     },
     {
@@ -265,14 +265,14 @@
     },
     {
         "id": 23,
-        "question": "This waterfall, with one sheer drop of 98 metres, is the eighteenth highest in Sri Lanka and runs off the Kehelgamuwa River. Sharing its name with an important city in Scotland it is called which of these?",
+        "question": "What makes the Golden Temple of Dambulla so unusual? ",
         "correctAnswer": 2,
         "category": 3,
         "answers": {
-            "answer_1": " Dundee Falls",
-            "answer_2": "Aberdeen Falls",
-            "answer_3": "Edinburgh Falls",
-            "answer_4": "Inverness Falls"
+            "answer_1": " It is built inside a volcano ",
+            "answer_2": "It is built in a cave ",
+            "answer_3": "It is made of solid gold ",
+            "answer_4": "The location is secret and to visit you must wear a blindfold"
         }
     },
     {
@@ -289,38 +289,38 @@
     },
     {
         "id": 25,
-        "question": "Sri Lankan Ediriweera Sarachchandra was an author of plays, novels and short stories. His play 'Maname', first staged in 1956, was considered to be the first Sinhala drama, incorporating folk rituals and stories. Which of these outdoor areas was named in his memory by the University of Peradeniya?",
+        "question": "Which popular spice is native only to the island of Sri Lanka, although it is now grown allover southeast Asia? ",
         "correctAnswer": 4,
         "category": 3,
         "answers": {
-            "answer_1": "Reflection pool",
-            "answer_2": "Botanical garden",
-            "answer_3": "Football arena",
-            "answer_4": "Open air theatre"
+            "answer_1": "Majoram ",
+            "answer_2": "Oregano",
+            "answer_3": "Fennel ",
+            "answer_4": "Cinnamon"
         }
     },
     {
         "id": 26,
-        "question": "On which Sri Lankan rock palace fortress, with an entrance between the paws of a lion, can you find a mirror wall with graffiti and fresco paintings of young maidens on sheer rock?",
-        "correctAnswer": 4,
+        "question": "While visiting Sri Lanka, you might want to go hiking in which of the following mountainranges? ",
+        "correctAnswer": 2,
         "category": 3,
         "answers": {
-            "answer_1": "Mihintale",
-            "answer_2": "Polonnaruwa",
-            "answer_3": "Anuradhapura",
-            "answer_4": "Sigiriya"
+            "answer_1": "Adirondack Mountain Range ",
+            "answer_2": "Knuckles Mountain Range ",
+            "answer_3": "Pennine Mountain Range ",
+            "answer_4": "Mount Lofty Mountain Range"
         }
     },
     {
         "id": 27,
-        "question": "Between 1983 and 2009 the Liberation Tigers of Tamil Eelam (Tamil Tigers) fought to secede and create an independent Tamil state in Sri Lanka, a fight which evolved into the Sri Lankan Civil War. Over which region of the country were they battling?",
-        "correctAnswer": 1,
+        "question": "If you go for a visit, you might find out that which of the following is a commonly usednickname for the beautiful island nation of Sri Lanka? ",
+        "correctAnswer": 4,
         "category": 3,
         "answers": {
-            "answer_1": "Northeast",
-            "answer_2": "West",
-            "answer_3": "Central",
-            "answer_4": "South"
+            "answer_1": "The Diamond of the Orient ",
+            "answer_2": "Jewel of the Nile ",
+            "answer_3": "Ruby of the Pacific ",
+            "answer_4": "Pearl of the Indian Ocean"
         }
     },
     {
@@ -337,14 +337,14 @@
     },
     {
         "id": 29,
-        "question": "Elephants are one of the native animals of Sri Lanka. Though the population is declining, space has been set aside in National Parks and Nature Reserves for their habitat. Three of these are names of parks where elephants can be seen, but which one has a completely different meaning?",
-        "correctAnswer": 3,
+        "question": "Which one of the following activities can you NOT do during a trip to Sri Lanka? ",
+        "correctAnswer": 4,
         "category": 3,
         "answers": {
-            "answer_1": "Yala",
-            "answer_2": "Udawalawe",
-            "answer_3": "Theravada",
-            "answer_4": "Wilpattu"
+            "answer_1": "Whitewater rafting ",
+            "answer_2": "Hot air balloon rides ",
+            "answer_3": "Spelunking ",
+            "answer_4": "Snow Skiing"
         }
     },
     {
