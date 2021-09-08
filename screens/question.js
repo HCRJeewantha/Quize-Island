@@ -74,7 +74,7 @@ function Question(props) {
 
     // navigate to the result view after finish questions
     function navigateResult() {
-        
+
         displayQuestionCount = 1
 
         navigation.navigate('Result', {
@@ -272,7 +272,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginRight:8,
         marginTop:8,
-        marginBottom:8
+        marginBottom:8,
+        textAlign:'center'
     },
     question: {
         fontSize: 18,
