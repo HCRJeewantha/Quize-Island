@@ -1,0 +1,16 @@
+-----Quize Land------
+Auther: Shamalka Perera
+
+* Requirenments *
+Nodejs latest version : https://nodejs.org/en/download/
+Expo cli : npm install -g expo-cli
+
+* Installation Details *
+1. To run this application, open the project folder in CMD
+2. Run the below code in terminal to start the application
+    npm start
+3. It will open a browser applicaton on your browser
+4. In the browser, click "Run in web browser" to run the application
+5. The mobile application will open in a new tab.
+6. right click on the opened browser tab and click "inspect" to change the responsive to mobile view
+7. select "i phone x" to get the best resolution 
