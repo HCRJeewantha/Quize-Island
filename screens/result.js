@@ -4,9 +4,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 function Result({ route, navigation }) {
     const { results, correct, incorrect } = route.params;
-
     const buttonClickedHandler = () => {
-
         navigation.navigate('Dashboard', {
             name: "Stranger",
         });
@@ -29,10 +27,10 @@ function Result({ route, navigation }) {
             <View style={styles.content}>
                 <View style={styles.contentContainer}>
                     <Text style={styles.totalResultText}>TOTAL</Text>
-                    <Text style={styles.totalResult}>{correct}/10</Text>
+                    <Text style={styles.totalResult}>{correct}/{correct + incorrect}</Text>
                     <Text style={styles.totalResultText}>SUMMARY</Text>
-                    <Text style={styles.summary}>{correct}/10 Correct Answers</Text>
-                    <Text style={styles.summary}>{incorrect}/10 Worng Answers</Text>  
+                    <Text style={styles.summary}>{correct}/{correct + incorrect} Correct Answers</Text>
+                    <Text style={styles.summary}>{incorrect}/{correct + incorrect} Worng Answers</Text>  
                     <TouchableOpacity
                         onPress={buttonClickedHandler}
                         style={styles.button}>

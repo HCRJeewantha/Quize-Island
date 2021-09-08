@@ -11,9 +11,12 @@ import { Audio } from 'expo-av';//import 'expo-av' audio module
 const selectedCategoryList = [];// create a array for store the question Id's of the selected category 
 var userAnswers = [];// create a array for store the correct answer count and incorrect answer count
 var displayQuestionCount = 1;
+
+//correct answer count and incorrect answer count store
 var correctCount = 1
 var incorrcectCount = 1
 
+//load question from JSON file according to index number
 function loadQuestion(CateListQuestionIndexNumber) {
     return data[CateListQuestionIndexNumber]
 }
@@ -31,26 +34,28 @@ function getCategoryRange(quizId) {
 }
 
 function Question(props) {
+
     //call getCategoryRange function for find seleced category quesion 
     getCategoryRange(props.level)
 
     const navigation = useNavigation();
-    const [correctC, setCorrectC] = useState(0);
-    const [incorrectC, setIncorrectC] = useState(0);
 
+    //set a question to display
     const [question, setQuestion] = useState('');
+    //set answers in a array to display
     const [getAnswers, setAnswers] = useState([]);
+    //set correct answer number for analyze
     const [correctAnswer, setCorrectAnswer] = useState('');
-
+    //save the selected quize is finished or not status
     const [isFinished, setIsFinished] = useState(true);
+    //ongoing question number 
     const [questionNumber, setQuestionNumber] = useState(1);
     const [displayCorrectAnswer, setDisplayCorrectAnswer] = useState(null);
     const [getSelectedAnswer, setGetSelectedAnswer] = useState(null);
-    
+
 
     //play correctSound
-    async function correctSound() 
-    {
+    async function correctSound() {
         const { sound } = await Audio.Sound.createAsync(
             require('../assets/Audio/chime.mp3')
         );
@@ -58,8 +63,7 @@ function Question(props) {
     }
 
     //play loosesound 
-    async function looseSound() 
-    {
+    async function looseSound() {
         const { sound } = await Audio.Sound.createAsync(
             require('../assets/Audio/loose.mp3')
         );
@@ -69,14 +73,12 @@ function Question(props) {
 
 
     // navigate to the result view after finish questions
-    function navigateResult () 
-    {
-
+    function navigateResult() {
         displayQuestionCount = 1
         navigation.navigate('Result', {
             results: userAnswers,
-            correct: correctC,
-            incorrect: incorrectC
+            correct: correctCount,
+            incorrect: incorrcectCount
         });
         userAnswers = []
     };
@@ -84,6 +86,8 @@ function Question(props) {
 
 
     useEffect(() => {
+        correctCount=0
+        incorrcectCount=0
         //create array for store answers for fisrt Question 
         var answers = []
 
@@ -100,8 +104,7 @@ function Question(props) {
     }, []);
 
     // nextQuestion function
-    function nextQuestion () {
-
+    function nextQuestion() {
         var answers = []
         setDisplayCorrectAnswer(null)
         setGetSelectedAnswer(null)
@@ -134,12 +137,10 @@ function Question(props) {
 
         if (selectedAnswer == correctAnswer) {
             userAnswers.push(1)
-            setCorrectC(correctCount)
             correctSound()
             correctCount++
         } else {
             userAnswers.push(0)
-            setIncorrectC(incorrcectCount)
             looseSound()
             incorrcectCount++
         }
@@ -150,7 +151,7 @@ function Question(props) {
     return (
         <React.Fragment>
             <View style={styles.questionContainer}>
-                <Text style={styles.questionNumber}>0{questionNumber}.</Text>
+                <Text style={styles.questionNumber}>{questionNumber}.</Text>
                 <Text style={styles.question}>{question}</Text>
             </View>
 
