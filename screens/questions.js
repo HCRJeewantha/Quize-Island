@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
         marginRight: '20px',
         marginLeft: '20px',
         boxShadow: '3px 3px 3px 3px rgba(97, 97, 97, 0.103)',
+        marginBottom:30
     },
     background: {
         position: 'absolute',
@@ -126,17 +127,18 @@ const styles = StyleSheet.create({
 
     },
     homeButton: {
-        width: '15%',
-        height: '36%',
+        width: 55,
+        height: 55,
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: '10%',
-        marginLeft: '5%',
+        marginTop: 60,
+        marginLeft: 10,
         borderRadius: 100,
     },
     header: {
-        width: '80%',
-        height: '90%'
+        width: 300,
+        height: 100,
+        marginTop:40
     }
 
 })

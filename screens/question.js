@@ -216,17 +216,18 @@ const styles = StyleSheet.create({
 
     button: {
         width: '70%',
-        height: 60,
+        minHeight:60,
+        maxHeight: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 630,
+        marginTop: 50,
         borderRadius: 40,
         backgroundColor: '#b107ff',
-        position: 'fixed'
     },
     answers: {
         width: '70%',
-        height: 60,
+        minHeight:60,
+        maxHeight: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
         marginTop: '5%',
@@ -237,7 +238,8 @@ const styles = StyleSheet.create({
     },
     answersCorrect: {
         width: '70%',
-        height: 60,
+        minHeight:60,
+        maxHeight: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
         marginTop: '5%',
@@ -248,7 +250,8 @@ const styles = StyleSheet.create({
     },
     answersIncorrect: {
         width: '70%',
-        height: 60,
+        minHeight:60,
+        maxHeight: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
         marginTop: '5%',
