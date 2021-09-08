@@ -4,18 +4,19 @@ Date:
 */
 import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity, TextInput, SafeAreaView } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient'; 
+import { LinearGradient } from 'expo-linear-gradient';
 
 //welcome function 
-function Welcome({ navigation }) 
-{
+function Welcome({ navigation }) {
     //react useState hook used to store name
     const [name, onChangeName] = React.useState("Stranger");
 
+
     // navigate to the main screen with passing name as a parameter 
-    function buttonClickedHandler()  
-    {
-        navigation.navigate('Main', {name: name,});
+    function buttonClickedHandler() {
+
+        localStorage.setItem("username", name);
+        navigation.navigate('Main');
     };
 
     return (

@@ -2,12 +2,16 @@ import * as React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 
+
+
 function Result({ route, navigation }) {
+
+    //get correct answers and incorrect answers from question component using react props
     const { results, correct, incorrect } = route.params;
-    const buttonClickedHandler = () => {
-        navigation.navigate('Dashboard', {
-            name: "Stranger",
-        });
+
+    //routing to dashboard
+    const routing = (routerpath) => {
+        navigation.navigate(routerpath);
     };
 
     return (
@@ -30,11 +34,16 @@ function Result({ route, navigation }) {
                     <Text style={styles.totalResult}>{correct}/{correct + incorrect}</Text>
                     <Text style={styles.totalResultText}>SUMMARY</Text>
                     <Text style={styles.summary}>{correct}/{correct + incorrect} Correct Answers</Text>
-                    <Text style={styles.summary}>{incorrect}/{correct + incorrect} Worng Answers</Text>  
+                    <Text style={styles.summary}>{incorrect}/{correct + incorrect} Worng Answers</Text>
                     <TouchableOpacity
-                        onPress={buttonClickedHandler}
+                        onPress={() => routing('Dashboard')}
                         style={styles.button}>
                         <Text style={styles.buttonText}>QUIZES</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        onPress={() => routing('Main')}
+                        style={styles.button}>
+                        <Text style={styles.buttonText}>HOME</Text>
                     </TouchableOpacity>
                 </View>
             </View>
@@ -108,7 +117,7 @@ const styles = StyleSheet.create({
         fontWeight: '700',
         fontSize: 60,
         color: '#5d5d5e',
-        marginBottom: 30
+        marginBottom: 10
     },
     totalResultText: {
         fontWeight: '600',
@@ -127,7 +136,7 @@ const styles = StyleSheet.create({
         height: 60,
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 20,
+        marginTop: 15,
         borderRadius: 40,
         backgroundColor: '#b107ff',
     },

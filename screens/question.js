@@ -86,15 +86,18 @@ function Question(props) {
 
 
     useEffect(() => {
-        correctCount=0
-        incorrcectCount=0
+
+        //set correct answer count and incorrect answer count to null when loading the component
+        correctCount = 0
+        incorrcectCount = 0
+
         //create array for store answers for fisrt Question 
         var answers = []
 
         //load questions from seleced catagory list
         const firstQuestionSet = loadQuestion(selectedCategoryList[0])
-        setCorrectAnswer(firstQuestionSet['correctAnswer'])
         setQuestion(firstQuestionSet['question'])
+        setCorrectAnswer(firstQuestionSet['correctAnswer'])
         answers.push(firstQuestionSet['answers']['answer_1'])
         answers.push(firstQuestionSet['answers']['answer_2'])
         answers.push(firstQuestionSet['answers']['answer_3'])
@@ -112,14 +115,13 @@ function Question(props) {
 
             const seletedQuestionSet = loadQuestion(selectedCategoryList[displayQuestionCount])
             setQuestion(seletedQuestionSet['question'])
-
+            setCorrectAnswer(seletedQuestionSet['correctAnswer'])
             answers.push(seletedQuestionSet['answers']['answer_1'])
             answers.push(seletedQuestionSet['answers']['answer_2'])
             answers.push(seletedQuestionSet['answers']['answer_3'])
             answers.push(seletedQuestionSet['answers']['answer_4'])
             setAnswers(answers)
 
-            setCorrectAnswer(seletedQuestionSet['correctAnswer'])
             displayQuestionCount++
             setQuestionNumber(displayQuestionCount)
         }

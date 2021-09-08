@@ -7,13 +7,9 @@ import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'; 
 import { LinearGradient } from 'expo-linear-gradient';  //import LinearGradient module
 
 //main function  
-function Main({ route, navigation }) 
-{
-    //passing parameters react native props
-    const { name } = route.params;
+function Main({ navigation }) {
 
-    function buttonClickedHandler() 
-    {
+    function buttonClickedHandler() {
         navigation.navigate('Dashboard');
     };
 
@@ -35,10 +31,10 @@ function Main({ route, navigation })
             <View style={styles.content}>
                 <View style={styles.greetingContainer}>
                     <Text style={styles.primaryText}>Hello,</Text>
-                    <Text style={styles.secondaryText}>{name}</Text>
+                    <Text style={styles.secondaryText}>{localStorage.getItem("username")}</Text>
                 </View>
                 <View style={styles.contentContainer}>
-                <Text style={styles.startText}>Click START to begin your journy</Text>
+                    <Text style={styles.startText}>Click START to begin your journy</Text>
                     <TouchableOpacity
                         onPress={buttonClickedHandler}
                         style={styles.button}>
