@@ -1,6 +1,4 @@
 -----Quize Land------
-Auther: Shamalka Perera
-
 * Requirenments *
 Nodejs latest version : https://nodejs.org/en/download/
 Expo cli : npm install -g expo-cli
@@ -14,3 +12,5 @@ Expo cli : npm install -g expo-cli
 5. The mobile application will open in a new tab.
 6. right click on the opened browser tab and click "inspect" to change the responsive to mobile view
 7. select "i phone x" to get the best resolution 
+
+https://www.linkedin.com/posts/ravindu-jeewantha-498811160_reactnative-mobileappdevelopment-mobileappdesign-ugcPost-6839243160309301249-OrTQ?utm_source=share&utm_medium=member_desktop
